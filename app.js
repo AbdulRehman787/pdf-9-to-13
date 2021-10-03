@@ -128,15 +128,54 @@
 
 
 
-var temperature = prompt("Enter the your area temperatre");
-if (temperature < 40 == 0) {
-    alert("“It is too hot outside.”")
-} else if (temperature < 30 == 0) {
-    alert("“The Weather today is Normal.”")
-} else if (temperature < 20 == 0) {
-    alert("“Today’s Weather is cool.”")
-} else if (temperature < 10) {
-    alert("“OMG! Today’s weather is so Cool.”")
+// var temperature = prompt("Enter the your area temperatre");
+// if (temperature < 40 == 0) {
+//     alert("“It is too hot outside.”")
+// } else if (temperature < 30 == 0) {
+//     alert("“The Weather today is Normal.”")
+// } else if (temperature < 20 == 0) {
+//     alert("“Today’s Weather is cool.”")
+// } else if (temperature < 10) {
+//     alert("“OMG! Today’s weather is so Cool.”")
+// } else {
+//     alert("OMG!")
+// }
+
+// var a = prompt("Enter the number you check this is uppercase and lowercase")
+// if (a < 65 || a < 89) {
+//     alert("this is upper case")
+// } else if (a < 90 || a < 120) {
+//     alert("This is lower case")
+// } else {
+//     alert("this is  uppercase and lowercase ")
+// }
+
+// var int = prompt("Enter the value")
+// if (int == "A.Rehman") {
+//     alert("This integar value is equal")
+// } else {
+//     alert("This integar is not equal")
+// }
+
+// var num = prompt("Enter the number checking this is positive  negative and zero")
+// if (num < 0 == 0) {
+//     alert("This is postive number")
+// } else {
+//     alert("This is negative number")
+// }
+
+// var password = prompt("Enter your conform password")
+// var pass = "A.Rehman"
+// if (password == pass) {
+//     alert("This is corect password")
+// } else {
+//     alert("This is incorrect password")
+// }
+
+
+var inp = prompt("Enter the numerical value")
+if (inp == "76") {
+    alert("Your input value is true")
 } else {
-    alert("OMG!")
+    alert("Your input value is false ")
 }
